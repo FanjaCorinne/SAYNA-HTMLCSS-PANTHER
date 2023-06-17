@@ -16,10 +16,11 @@
             <img src="./Illustrations + Logo/All pages/icon_MARVEL.png" alt="">
         </div>
         <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>WAKANDA</li>
-                <li>ENIGME</li>
+        <!--J'ai renversé l'ordre pour obtenir la disposition souhaitée (apparemment c'est l'utilisation de "float: right;" qui a tout basculé)-->
+            <ul class="nav">
+                <li><a href="enigme.html">ENIGME</a></li>
+                <li><a href="wakanda.html">WAKANDA</a></li>
+                <li><a class="active" href="accueil.html">ACCUEIL</a></li>
             </ul>
         </nav>
     </header>
@@ -36,12 +37,11 @@
     </div>
 
         <!--Section 1-->
-    <section id="">
-        <div>
+    <section id="black-panther">
+        <div class="panther-text">
             <h1 class="typo1">
                 BLACK PANTHER
             </h1>
-<!--La taille de police du h2 suivant sera PLUS GRAND que les suivants-->
             <h2>
                 WAKANDA FOREVER
             </h2>
@@ -52,14 +52,21 @@ racisme, la colonisation et les violences contre les afro américains. <br>
 
 Ce film marque tout une génération, &quot;c’est 100% africain et c’est parfait&quot;.
             </p>
-            <a href="#">Voir plus ></a>
+            <div class="more">
+                <a href="#">Voir plus ></a>
+            </div>
+        </div>
+        <div class="panther-image">
+            <img src="./Illustrations+Logo/Accueil/Pantherhome1..png" alt="">
         </div>
     </section>
 
         <!--Section 2 : 2 parties pouvant se défiler-->
-    <section>
-        <div>
-            <div>
+    <section id="scrolling-x">
+            <div class="scroll-1">
+                <img src="./Illustrations+Logo/Accueil/Pantherhome2.png" alt="">
+            </div>
+            <div class="scroll-2">
                 <h2>
                     KILLMONGER
                 </h2>
@@ -70,9 +77,14 @@ valu le surnom de Killmonger. D’origine Wakandaise,
 et se sentant abandoné par sa nation, il cherche à 
 détroner T’Challa dans une quête vers le pourvoir.
                 </p>
-                <a href="#">Voir plus ></a>
+                <div class="more">
+                    <a href="#">Voir plus ></a>
+                </div>
             </div>
-            <div>
+            <div class="scroll-3">
+                <img src="./Illustrations+Logo/Accueil/Pantherhome3.png" alt="">
+            </div>
+            <div class="scroll-4">
                 <h2>
                     OKOYE
                 </h2>
@@ -83,14 +95,22 @@ des renseignements wakandais. Témoin du
 couronnement de T'Challa, elle se joint à lui dans de 
 nombreuses aventures.
                 </p>
-                <a href="#">Voir plus ></a>
+                <div class="more">
+                    <a href="#">Voir plus ></a>
+                </div>
             </div>
+            <div class="scroll-5">
+                <img src="./Illustrations+Logo/Accueil/Pantherhome4.png" alt="">
+            </div>
+        </div>
+        <div>
+            <button class="next"> > </button>
         </div>
     </section>
 
         <!--Section 3 (à gauche)-->
-    <section>
-        <div class="container">
+    <section id="main-text">
+        <div class="born">
             <h2>
                 Naissance d’un prince
             </h2>
@@ -119,7 +139,7 @@ passé afin de simplement rester roi.
                     &mdash; T'Challa et Zuri
             </p>
         </div>
-        <div class="container">
+        <div class="hero">
             <h2>
                 un heros vengeur
             </h2>
@@ -154,7 +174,7 @@ consumer à nouveau.
                     &mdash; T'Challa et T'Chaka             
             </p>
         </div>
-        <div class="container">
+        <div class="protector">
             <h2>
                 un heros PROTECTEUR ET JUSTICIER
             </h2>
@@ -187,7 +207,7 @@ erreurs de son père.
 
     <!--Section 4 (à droite)-->
     <section>
-        <div class="container">
+        <div>
             <img src="./Illustrations + Logo/Accueil/Pantherhome5.png" alt="">
                 <h2>
                 T’Challa

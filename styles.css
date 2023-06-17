@@ -19,15 +19,37 @@
     src: url(./Fonts/WakandaForever-Regular.ttf);
 }
 
+:root {
+    --white: #FFFFFF;
+    --pink: #F2CEF2;
+    --hotpink: #DF99F2;
+    --beige: #9E91B7;
+    --purple: #3D2DA6;
+    --blue: #07338C;
+    --darkblue: #021740;
+}
+
+html {
+    background-image: url(./Illustrations+Logo/All_pages/arri+¿re_plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Typographie */
+/* Typographie et couleurs de police*/
+* {
+    color: var(--white);
+}
+
 h1 {
     font-size: 68px;
+    margin: 60px auto;
+    color: var(--hotpink);
 }
 
 h1.typo1 {
@@ -41,11 +63,17 @@ h1.typo2 {
 h2 {
     font-family: "Beyno";
     font-size: 32px;
+    margin: 30px auto;
+    color: var(--hotpink);
 }
 
 h2.typo3 {
     font-family: "Wakanda";
     font-size: 43px;
+}
+
+nav ul li a {
+    font-family: "Beyno";
 }
 
 .enigme {
@@ -57,13 +85,127 @@ h2.typo3 {
 p {
     font-family: "Cantarell";
     font-size: 16px;
+    text-align: justify;
 }
 
 p.quote {
     font-size: 14px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.more {
+    font-family: "Cantarell";
+    font-size: 16px;
+}
+
+/* Mise en page du HEADER */
+nav {
+    padding: 20px 0;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    background: none;
+}
+
+nav li a {
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav .active {
+    text-decoration: underline;
+    color: var(--hotpink);
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Mise en page de la page d'ACCUEIL */
+/* SECTION 1 */
+#black-panther {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.panther-text {
+    display: block;
+    margin-left: 200px;
+}
+
+.more {
+    margin: 20px 0;
+}
+
+.panther-image {
+    text-align: center;
+}
+
+.panther-image img {
+    max-width: 560px;
+    height: auto;
+}
+
+/*SECTION 2 */
+#scrolling-x {
+    display: flex;
+}
+
+.scroll-1,
+.scroll-2,
+.scroll-3,
+.scroll-4,
+.scroll-5 {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    inline-size: 20%;
+    background-color: var(--darkblue);
+}
+
+.scroll-1 img, .scroll-3 img {
+    width: 100%;
+}
+
+.scroll-5 img {
+    width: 75%;
+}
+
+.scroll-2, .scroll-4 {
+    line-height: 1;
+    padding: 20px auto;
+}
+
+#scrolling-x button {
+    background-color: var(--darkblue);
+    font-size: 35px;
+    border-radius: 70px;
+}
+
+button.next {
+    position: absolute;
+    right: 80px;
+    top: 630px;
+}
+
+/* SECTION 3 */
+#main-text {
+    display: inline-block;
+}
+
+.born,
+.hero,
+.protector {
+    padding: 10px 20px;
+    margin: 20px 30px;
+    margin-right: 400px;
 }
