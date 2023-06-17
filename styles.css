@@ -72,6 +72,12 @@ h2.typo3 {
     font-size: 43px;
 }
 
+h3 {
+    font-family: "Cantarell";
+    font-size: 32px;
+    color: var(--darkblue);
+}
+
 nav ul li a {
     font-family: "Beyno";
 }
@@ -207,5 +213,65 @@ button.next {
 .protector {
     padding: 10px 20px;
     margin: 20px 30px;
-    margin-right: 400px;
+    margin-right: 600px;
+}
+
+/* SECTION 4 */
+#about {
+    padding: 0;
+    margin: -1500px 30px 20px 900px;
+}
+
+.container {
+    background-color: var(--white);
+    padding: 30px 50px;
+}
+
+.king-image img {
+    width: 100%;
+}
+
+#about div.btn {
+    display: inline;
+}
+
+.black-panther-btn,
+.roi-btn,
+.en-vie-btn {
+    padding: 10px 8px;
+    text-decoration: none;
+    justify-content: center;
+    border: 1px solid var(--purple);
+    border-radius: 40%;
+    background-color: var(--purple);
+}
+
+.container .info {
+    padding: 30px 20px;
+}
+
+.container h3 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container .info p {
+    color: var(--darkblue);
+}
+
+.container .info p span {
+    color: var(--darkblue);
+    font-weight: bold;
+}
+
+.container .info p span.special {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#form .formulaire {
+    padding: 40px 50px;
+    margin: 150px 300px 150px 300px;
+    border: 2px solid white;
+    border-radius: 30px;
 }
