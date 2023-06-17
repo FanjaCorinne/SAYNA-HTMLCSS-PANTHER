@@ -72,7 +72,7 @@ h2.typo3 {
     font-size: 43px;
 }
 
-h3 {
+h3, h4 {
     font-family: "Cantarell";
     font-size: 32px;
     color: var(--darkblue);
@@ -223,7 +223,7 @@ button.next {
 }
 
 .container {
-    background-color: var(--white);
+    background-color: var(--beige);
     padding: 30px 50px;
 }
 
@@ -269,9 +269,38 @@ button.next {
     font-weight: lighter;
 }
 
+/* SECTION 5 */
 #form .formulaire {
     padding: 40px 50px;
     margin: 150px 300px 150px 300px;
     border: 2px solid white;
     border-radius: 30px;
+    background-color: var(--white);
+}
+
+#form .formulaire .input input {
+    border: 1px solid var(--darkblue);
+    padding: 30px 20px;
+    margin: 20px 30px 20px 30px;
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+}
+
+#form .formulaire .send input {
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    color: var(--darkblue);
+    padding: 10px 50px;
+    margin-left: 200px;
+    border-radius: 25px;
+}
+
+#form .formulaire p {
+    color: var(--darkblue);
+}
+
+/* Mise en page du FOOTER */
+footer img {
+    float: right;
 }
