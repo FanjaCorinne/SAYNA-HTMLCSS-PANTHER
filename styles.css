@@ -300,6 +300,62 @@ button.next {
     color: var(--darkblue);
 }
 
+/* Mise en page de la page ENIGME */
+/* SECTION 1 */
+#enigme {
+    display: flex;
+    justify-content: center;
+}
+
+#enigme img {
+    float: left;
+    width: 50%;
+}
+
+#enigme .dora-milaje .enigme-image1 {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+}
+
+#enigme .dora-milaje p {
+    display: flex;
+    position: absolute;
+    padding: 20px 25px;
+    margin: 0 20px 50px 690px;
+}
+
+/* SECTION 2 */
+#enigme-citation {
+    display: flex;
+}
+
+.question .qst,
+.question .qst-txt,
+.question .alphabet {
+    padding: 20px 30px;
+    margin: 0 200px 50px 200px;
+}
+
+/* SECTION 3 */
+#did-you-know {
+    display: flex;
+}
+
+#did-you-know .dyk .enigme-image2 {
+    display: flex;
+    position: relative;
+    top: 350px;
+    margin: 0 20px 50px 500px;
+}
+
+#did-you-know .dyk p {
+    display: block;
+    padding: 20px 30px;
+    margin: 0 50px 50px 690px;
+}
+
 /* Mise en page du FOOTER */
 footer img {
     float: right;
