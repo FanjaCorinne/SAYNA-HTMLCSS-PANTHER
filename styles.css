@@ -296,6 +296,12 @@ button.next {
     padding: 10px 50px;
     margin-left: 200px;
     border-radius: 25px;
+    width: 174px;
+    height: 54px;
+}
+
+#form .formulaire .send input:hover {
+    box-shadow: 0 0 20px #021740;
 }
 
 #form .formulaire p {
@@ -385,7 +391,13 @@ button.next {
     color: var(--purple);
     padding: 10px 50px;
     margin-left: 220px;
-    border-radius: 25px;
+    border-radius: 38px;
+    width: 174px;
+    height: 54px;
+}
+
+.answer input:hover {
+    box-shadow: 0 0 20px #F2CEF2;
 }
 
 /* Mise en page de la page WAKANDA */
@@ -459,7 +471,7 @@ button.next {
 }
 
 .culte {
-    margin: -2250px 20px 2px 700px;
+    margin: -2180px 20px 2px 700px;
 }
 
 .guerre,
@@ -473,9 +485,22 @@ button.next {
 footer {
     display: flex;
     position: absolute;
-    border: 2px solid white;
+    background-image: url(./Illustrations+Logo/All_pages/back_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    height: 200px;
+    width: 100%;
 }
 
 footer img {
     float: right;
+    width: 100%;
+}
+
+.pages,
+.social-media,
+.other {
+    display: flex;
+
 }
