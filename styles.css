@@ -345,18 +345,135 @@ button.next {
 
 #did-you-know .dyk .enigme-image2 {
     display: flex;
-    position: relative;
+    position: absolute;
     top: 350px;
-    margin: 0 20px 50px 500px;
+    padding: 30px 40px;
+    margin: 650px 1px 50px 500px;
 }
 
 #did-you-know .dyk p {
-    display: block;
+    display: flex;
     padding: 20px 30px;
-    margin: 0 50px 50px 690px;
+    margin: 0 50px 0 690px;
+}
+
+/* SECTION 4 */
+#enigme-form {
+    display: flex;
+}
+
+.answer p {
+    padding: 20px 30px;
+    margin: 30px 200px 0 50px;
+}
+
+.answer textarea {
+    width: 520px;
+    height: 56px;
+    border: 1px solid var(--white);
+    border-radius: 38px;
+    padding: 10px 15px;
+    margin: 30px 200px 10px 50px;
+    color: var(--white);
+    background: none;
+}
+
+.answer input {
+    background-color: var(--hotpink);
+    color: var(--purple);
+    padding: 10px 50px;
+    margin-left: 220px;
+    border-radius: 25px;
+}
+
+/* Mise en page de la page WAKANDA */
+/* SECTION 1 */
+#wakanda-text1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.typo2,
+.typo3 {
+    padding: 2px 30px;
+    margin: 0 300px 20px 50px;
+}
+
+#wakanda-text1 h2,
+#wakanda-text p {
+    display: flex;
+    position: absolute;
+}
+
+.w-text1 {
+    padding: 60px 30px;
+    margin: 0 700px 20px 50px;
+}
+
+#wakanda-text1 img {
+    display: flex;
+    position: static;
+    float: right;
+    width: 50%;
+}
+
+/* SECTION 2 */
+#whole-text-left {
+    display: block;
+}
+
+#whole-text-left p {
+    margin-bottom: 20px;
+}
+
+.origin1,
+.origin2,
+.media,
+.cinema {
+    display: block;
+    padding: 10px 20px;
+    margin: 0 700px 0 20px;
+}
+
+.media {
+    background-color: var(--blue);
+}
+
+/* SECTION 3 */
+#whole-text-right {
+    display: block;
+}
+
+#whole-text-right p {
+    margin-bottom: 20px;
+}
+
+.culte,
+.guerre,
+.force-militaire,
+.anecdotes {
+    display: block;
+    padding: 1px 2px;
+}
+
+.culte {
+    margin: -2250px 20px 2px 700px;
+}
+
+.guerre,
+.force-militaire,
+.anecdotes {
+    margin-right: 20px;
+    margin-left: 700px;
 }
 
 /* Mise en page du FOOTER */
+footer {
+    display: flex;
+    position: absolute;
+    border: 2px solid white;
+}
+
 footer img {
     float: right;
 }
