@@ -280,6 +280,8 @@ button.next {
 
 #form .formulaire .input input {
     border: 1px solid var(--darkblue);
+    color: var(--darkblue);
+    font-size: 16px;
     padding: 30px 20px;
     margin: 20px 30px 20px 30px;
     width: 520px;
